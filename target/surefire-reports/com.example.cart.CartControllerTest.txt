@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.cart.CartControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.309 s <<< FAILURE! - in com.example.cart.CartControllerTest
+retrieveAllProduct(com.example.cart.CartControllerTest)  Time elapsed: 0.281 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.example.cart.CartControllerTest.retrieveAllProduct(CartControllerTest.java:35)
+
